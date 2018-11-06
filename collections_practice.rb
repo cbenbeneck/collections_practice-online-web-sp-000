@@ -30,9 +30,7 @@ def find_a(array)
 end 
 
 def sum_array(array)
-   array.collect do |name| 
-    name.length.inject(0) 
- end 
+   array.join.length
 end 
 
 
