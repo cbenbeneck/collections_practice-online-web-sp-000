@@ -27,7 +27,7 @@ end
 
 def find_a(array)
   array.collect do  |name|
-  keep_ifname.start_with?("a")
+  name.start_with?("a").keep_if 
  end 
 end 
 
