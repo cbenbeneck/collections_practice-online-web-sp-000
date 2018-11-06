@@ -34,7 +34,7 @@ def sum_array(array)
 end 
 
 def add_s(array)
-array.collect{ |element,index| element+"s", index[0,2,3]}
+array.collect{ |element,index| element+"s"}
 end 
 
 
