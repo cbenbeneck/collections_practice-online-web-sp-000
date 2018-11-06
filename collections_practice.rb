@@ -19,5 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  [array].each { |name| "puts #{name.insert 3, "$"}" } 
+  [array].each { |name| " puts #{name}" 
 end  
