@@ -21,7 +21,5 @@ end
 def kesha_maker(array)
   [array].each { |name|
   
-  name = name[0-1,"$",3-10]
-  
   "puts #{name}" } 
 end  
