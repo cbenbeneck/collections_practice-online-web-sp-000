@@ -19,5 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker
-  [array].each.insert 3, "$" 
+  [array].each
 end  
