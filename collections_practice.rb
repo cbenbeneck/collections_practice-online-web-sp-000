@@ -30,7 +30,8 @@ def find_a(array)
 end 
 
 def sum_array(array)
-   array.join.length
+   new_array = array.join
+   new_array.length
 end 
 
 
