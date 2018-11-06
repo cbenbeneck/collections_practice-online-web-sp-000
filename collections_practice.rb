@@ -24,3 +24,8 @@ def kesha_maker(array)
   name 
   end  
 end 
+
+def find_a(array)
+  array.start_with?"a"
+end 
+
