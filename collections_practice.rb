@@ -30,7 +30,9 @@ def find_a(array)
 end 
 
 def sum_array(array)
-  array.sum 
+  array.collect do |i|
+    i.sum 
+  end 
 end 
 
 
