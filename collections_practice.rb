@@ -35,7 +35,7 @@ end
 
 def add_s(array)
 array.each_with_index.collect{ | e, i | 
-e+"s", e, e+"s", e+"s"} 
+i+"s", e, i+"s", i+"s"} 
 end 
 
 
