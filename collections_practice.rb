@@ -31,7 +31,7 @@ end
 
 def sum_array(array)
    array.collect do |name| 
-    name.length 
+    name.length.inject(0) 
  end 
 end 
 
